@@ -1,6 +1,8 @@
+import "./switch.css"
+
 let Switch =(props)=>{
   let [mode,changemode] = useState(false)
-  console.log(mode)
+
   props.displayState(mode)
   return(
     <label className="switch">
